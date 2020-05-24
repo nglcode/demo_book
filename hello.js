@@ -1,11 +1,8 @@
-/**
-
-hello.js
-
-*/
+// hello
 
 function hello() {
-	console.log("Hello there");
+	let msg = "Hello";
+	console.log(msg);
 }
 
 hello();
