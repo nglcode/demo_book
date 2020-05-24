@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-// hello
-
-function hello() {
-	let msg = "Hello";
-	console.log(msg);
-=======
 /*
 
 // hello.js
@@ -12,8 +5,9 @@ function hello() {
 */
 
 function sayHello(name="default") {
-	console.log("Hello there: " + name);
->>>>>>> fix/change-hello
+
+	alert("Hello there: " + name);
+	sayHello("sample");
 }
 
-hello("Juan");
+sayHello("Juan");
